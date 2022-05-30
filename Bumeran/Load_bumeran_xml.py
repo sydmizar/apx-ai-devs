@@ -110,8 +110,9 @@ def scrape_job_urls(filtered_jobs_urls_list:list, RAW_KEYWORDS_LIST:list) -> lis
     jobs_info_list = list()
 
     for index_number,job_url in enumerate(filtered_jobs_urls_list):
-        if index_number % 30 == 0: 
-            webdriver = start_webdriver()
+        if index_number + 1 % 30 == 0: 
+            #webdriver = start_webdriver()
+            break
         scraped_url = scrape_job_url(driver = webdriver, url=job_url, raw_keywords_list=RAW_KEYWORDS_LIST)
         jobs_info_list.append(scraped_url)
     
@@ -137,7 +138,7 @@ def main(RAW_KEYWORDS_LIST:list) -> None:
 
 
 if __name__ == '__main__':
-    RAW_KEYWORDS_LIST = ["data","datos","data engineer"] #,"inteligencia de negocios","ingeniero de datos","cientifico de datos","frontend developer","front","web"]
+    RAW_KEYWORDS_LIST = ["desarrollador"]#["data","datos","data engineer"] #,"inteligencia de negocios","ingeniero de datos","cientifico de datos","frontend developer","front","web"]
     main(RAW_KEYWORDS_LIST=RAW_KEYWORDS_LIST)
 
 #TODO: Question - log steps and errors? 
