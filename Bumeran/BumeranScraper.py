@@ -2,10 +2,12 @@ from datetime import datetime
 from urllib.request import Request, urlopen
 import pandas as pd
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 import json
 import time
 import locale
+import bumeran_data_preprocessing_tools 
 locale.setlocale(locale.LC_TIME, '')
 
 
@@ -39,14 +41,17 @@ def convert_raw_xml_to_filtered_list(bumeran_xml_raw:str, processed_keywords:str
     """
     bumeran_raw_df = pd.read_xml(bumeran_xml_raw)['loc']
     positions_filtered_df = bumeran_raw_df[bumeran_raw_df.str.contains(processed_keywords, regex=True)]
-    return positions_filtered_df.tolist()
+    if len(positions_filtered_df.tolist()) > 0:
+        return positions_filtered_df.tolist()
+    else:
+        raise AssertionError("No jobs available for the keywords introduced.")
 
 
 def start_webdriver() -> webdriver.Chrome:
     """
     initialize Selenium Chrome Webdriver
     """
-    WEBDRIVER_PATH = r"chromedriver.exe"
+    WEBDRIVER_PATH = r"Bumeran\chromedriver.exe"
     return webdriver.Chrome(executable_path=WEBDRIVER_PATH)
 
 
@@ -76,25 +81,25 @@ def scrape_job_url(driver:webdriver.Chrome, url:str, raw_keywords_list:list)-> d
 
     try: 
         job_info['keyWords']            = raw_keywords_list
-        job_info['title_role']          = driver.find_element_by_xpath(xPath_dict["JOB_TITLE_XPATH"]).text
-        job_info['description']         = driver.find_element_by_xpath(xPath_dict["DESCRIPTION_XPATH"]).text
-        job_info['date_published']      = driver.find_element_by_xpath(xPath_dict["DATE_PUBLISHED_XPATH"]).text
-        job_info['schema']              = driver.find_element_by_xpath(xPath_dict["REMOTE_SCHEMA_XPATH"]).text
+        job_info['title_role']          = driver.find_element(by= By.XPATH, value=xPath_dict["JOB_TITLE_XPATH"]).text
+        job_info['description']         = driver.find_element(by= By.XPATH, value=xPath_dict["DESCRIPTION_XPATH"]).text
+        job_info['date_published']      = driver.find_element(by= By.XPATH, value=xPath_dict["DATE_PUBLISHED_XPATH"]).text
+        job_info['schema']              = driver.find_element(by= By.XPATH, value=xPath_dict["REMOTE_SCHEMA_XPATH"]).text
         job_info['consulted_datetime']  = datetime.now().strftime(r"%d/%m/%Y, %H:%M")
         job_info['source']              = url
-        job_info['company_rate']        = None #driver.find_element_by_xpath(COMPANY_RATE_XPATH).text
-        job_info['salary']              = driver.find_element_by_xpath(xPath_dict["SALARY_XPATH"]).text
+        job_info['company_rate']        = None #driver.find_element(COMPANY_RATE_XPATH).text
+        job_info['salary']              = driver.find_element(by= By.XPATH, value=xPath_dict["SALARY_XPATH"]).text
 
         #xPaths that already have caused an exception
         try:
-            job_info['company']         = driver.find_element_by_xpath(xPath_dict["COMPANY_XPATH"]).text
+            job_info['company']         = driver.find_element(by= By.XPATH, value=xPath_dict["COMPANY_XPATH"]).text
         except NoSuchElementException:
-            job_info['company']         = driver.find_element_by_xpath(xPath_dict["COMPANY_XPATH"][:-4] + 'span/h3').text
+            job_info['company']         = driver.find_element(by= By.XPATH, value=xPath_dict["COMPANY_XPATH"][:-4] + 'span/h3').text
 
         try:
-            job_info['city']            = driver.find_element_by_xpath(xPath_dict["CITY_XPATH"]).text
+            job_info['city']            = driver.find_element(by= By.XPATH, value=xPath_dict["CITY_XPATH"]).text
         except NoSuchElementException:
-            job_info['city']            = driver.find_element_by_xpath(xPath_dict["CITY_XPATH"][:-4] + 'span/h2').text
+            job_info['city']            = driver.find_element(by= By.XPATH, value=xPath_dict["CITY_XPATH"][:-4] + 'span/h2').text
     
     except Exception as e:
         print(e) 
@@ -118,13 +123,22 @@ def scrape_job_urls(filtered_jobs_urls_list:list, RAW_KEYWORDS_LIST:list) -> lis
     
     return jobs_info_list
 
-def json_dump_job_info(jobs_info:list) -> None:
+def preprocess_job_info(scraped_jobs_info:list) -> pd.DataFrame:
+    temp_df = pd.DataFrame(scraped_jobs_info)
+    temp_df = bumeran_data_preprocessing_tools.create_min_max_salary_columns(temp_df)
+    temp_df["date_published"] = temp_df["date_published"].map(bumeran_data_preprocessing_tools.date_published_dict)
+    temp_df["schema"] = temp_df["schema"].str.lower().map(bumeran_data_preprocessing_tools.schema_dict)
+    temp_df["description"] = temp_df["description"].apply(bumeran_data_preprocessing_tools.translate_job_description)
+
+    return temp_df
+
+def json_dump_job_info(temp_df:pd.DataFrame) -> None:
     """
     Gives .json format to the list containing the information for all the jobs filtered by keywords
     """
-    output_filename = f'bumeran_scraped_data_{datetime.now().strftime(r"%d-%m-%Y_%H%M")}.json'
-    with open(output_filename, 'w+', encoding='utf-8') as outfile:
-        json.dump(jobs_info,outfile,ensure_ascii=False,indent=4)
+    keyword_searched = temp_df["keyWords"][0][0].replace(" ","")
+    output_filename = f'Bumeran\\scraped_data\\{datetime.now().strftime(r"%Y%m%d_%H%M")}_bumeran_{keyword_searched}.json'
+    temp_df.to_json(path_or_buf=output_filename, orient='split',force_ascii=False,indent=4)
   
 def main(RAW_KEYWORDS_LIST:list) -> None:
     """
@@ -134,11 +148,12 @@ def main(RAW_KEYWORDS_LIST:list) -> None:
     processed_keywords = convert_keywords_list_to_str(RAW_KEYWORDS_LIST)
     filtered_jobs_urls_list = convert_raw_xml_to_filtered_list(bumeran_xml_raw = bumeran_xml, processed_keywords=processed_keywords)
     scraped_jobs_info = scrape_job_urls(filtered_jobs_urls_list, RAW_KEYWORDS_LIST)
-    json_dump_job_info(scraped_jobs_info)
+    preprocessed_jobs_info = preprocess_job_info(scraped_jobs_info)
+    json_dump_job_info(preprocessed_jobs_info)
 
 
 if __name__ == '__main__':
-    RAW_KEYWORDS_LIST = ["desarrollador"]#["data","datos","data engineer"] #,"inteligencia de negocios","ingeniero de datos","cientifico de datos","frontend developer","front","web"]
+    RAW_KEYWORDS_LIST = ["analista de datos","datos"]#["ingeniero de datos","data engineer"] #,"inteligencia de negocios","ingeniero de datos","cientifico de datos","frontend developer","front","web"]
     main(RAW_KEYWORDS_LIST=RAW_KEYWORDS_LIST)
 
 #TODO: Question - log steps and errors? 
