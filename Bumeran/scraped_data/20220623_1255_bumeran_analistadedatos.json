@@ -1,0 +1,290 @@
+{
+    "columns":[
+        "keyWords",
+        "title_role",
+        "description",
+        "date_published",
+        "schema",
+        "consulted_datetime",
+        "source",
+        "company_rate",
+        "company",
+        "city",
+        "min_monthly_salary",
+        "max_monthly_salary"
+    ],
+    "index":[
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+    ],
+    "data":[
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "Verificador de datos \/ Prospectador",
+            "We are looking for collaborators for prospect collection activities, that is, companies that may be interested in acquiring our ERP, collecting the corresponding data in the database for easy contact with them, as well as verifying the authenticity of the collected data.\nHours: Monday to Friday from 8:30 am. to 6:00 p.m. and Saturdays 9:00 a.m. to 1:00 p.m.\nSalary: 8,000.00 + Commissions + All legal benefits. (IMSS, vacation bonus, Infonavit, Christmas bonus)",
+            "01\/06\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/verificador-de-datos-prospectador-contrata-recursos-humanos-1115199040.html",
+            null,
+            "Contrata Recursos Humanos",
+            "Monterrey, Nuevo León, Mexico",
+            null,
+            null
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "AUXILIAR DE BASE DE DATOS",
+            "We are looking for a Database Assistant to join our team.\nObjective: Management and administration of the company's master data to avoid duplication, and guarantee the reliability of the information of suppliers, clients, articles, etc. through our ERP.\nYou will be responsible for:\n· Generate statistical reports in the ERP\n· Ensure the reliability of master data, within the systems\n· Meet all user requirements (register customers, suppliers, items, accounting accounts, cost centers, and other needs).\nGuarantee the security of information and master data\nERP troubleshooting\nRequirements:\nEducation: Systems Technician, Engineering\/Bachelor's Degree in Systems or Computer Science, Actuary, Applied Mathematics or related\nExperience: 6 months in database\n· Language: Intermediate English (written and read)\nOffice package\n· Technical knowledge of languages: SQL server and others in databases\nCompetencies:\n· Quality in the service\n· Customer orientation\n· Organization\n· Analysis and solution of problems\nWe offer: Competitive salary + PSL\nPlace of work: Alvaro Obregon",
+            "09\/05\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/auxiliar-de-base-de-datos-1115157563.html",
+            null,
+            "Confidencial",
+            "Álvaro Obregón, Distrito Federal, Mexico",
+            null,
+            null
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "Desarrollador Base de Datos \/ Soporte TI",
+            "INTERNATIONAL DISTRIBUTION COMPANY OF ACTIVE PHARMACEUTICAL PRINCIPLES AND SEMI-FINISHED PRODUCTS\nSEARCH:\nDatabase Developer \/ IT Support\nEXPERIENCE:\nExperience of 2 to 3 years in management of Database Microsoft SQL, MySQL\nIn the contribution to proposals and solutions for the company's information requirements through extraction, transformation and processing processes.\nGenerate automatic alerts as a result of inconsistencies in integration processes.\nSupport network and infrastructure requirements.\nRequirements:\nREQUIREMENTS:\nSchooling: Systems, Software, Programming, Systems Analysis, careers to end.\nSkill in data extraction, transformation and loading tools\nSQL SERVER Database Scripting Skills\nQuery languages ​​(T-SQL)\nBasic knowledge of networks and infrastructure\nWE OFFER:\nPlace of work: Mexico City\nHours: 9 a.m. to 5 p.m. Monday through Friday\nSalary: $25,000 monthly + law benefits and private medical insurance",
+            "09\/05\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/desarrollador-base-de-datos-soporte-ti-bumeran-selecta-mx-1115143432.html",
+            null,
+            "Bumeran Selecta MX",
+            "Ciudad de México, Distrito Federal, Mexico",
+            null,
+            null
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "Verificador de datos \/ Prospectador",
+            "We are looking for collaborators for prospect collection activities, that is, companies that may be interested in acquiring our ERP, collecting the corresponding data in the database for easy contact with them, as well as verifying the authenticity of the collected data.\n\nHours: Monday to Friday from 8:30 am. to 6:00 p.m. and Saturdays 9:00 a.m. to 1:00 p.m.\nSalary: 8, + Commissions + All law benefits. (IMSS, vacation bonus, Infonavit, Christmas bonus)",
+            "21\/06\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/verificador-de-datos-prospectador-contrata-recursos-humanos-1115241791.html",
+            null,
+            "Contrata Recursos Humanos",
+            "Monterrey, Nuevo León, Mexico",
+            "8,000",
+            "8,001"
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "CAPTURISTA DE DATOS",
+            "We request data capture!!!\n\nObjective: Management and updating of data and information, entering them into databases.\n\nRequirements:\nIndistinct sex\nAge of 18-35 years\nFinished or Truncated High School\nManagement of Word, Excel and Power Point (basic-intermediate level)\nAnalytical capacity\nOrganized.\n\nFunctions: reception of data through electronic means.\nStorage\nDigitization of it.\nManagement of daily report.\nDatabase monitoring.\n\nWe offer:\nNet Salary $5,\nHours from Monday to Friday from 9 am to 7 pm.\nExcellent work environment\nconstant training\nJob stability and legal benefits after the third month.\nInterested please apply through this application with updated CV.",
+            "14\/06\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/capturista-de-datos-jose-vazquez-r-1115223755.html",
+            null,
+            "JOSE VAZQUEZ R",
+            "Cuauhtémoc, Distrito Federal, Mexico",
+            "5,000",
+            "5,200"
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "Capturista de datos",
+            "IMITI event hall\nWe are a chain of Night Club Type event rooms, totally Family and Private. We have 5 branches and due to expansion and growth we apply for Administrative and Data Entry positions.\nRequirements:\n-Age between 25 to 35 years\n-Schedule availability\n-Basic computer skills\n-Good spelling\n-Ease of speech\n-Baccalaureate completed\n-Experience of 6 months to one year of experience in an administrative position (capturist, information management, etc.)\n-Computer required\nTasks to do:\n-Keep updated databases\n-Sales record\n-Follow-up review to the various clients\n-Management and control of data\nWe offer:\n-Basic salary\n-Commissions for sales\n-Constant training\n-Opportunity for development and growth\n-Excellent working environment\nSchedule:\n-10 am to 4 pm full time\n-Monday to Friday\n-Saturday 1 hour from home",
+            "10\/06\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/capturista-de-datos-jessica-junuen-alberto-sanchez-1115221532.html",
+            null,
+            "Jessica Junuen Alberto Sánchez",
+            "Azcapotzalco, Distrito Federal, Mexico",
+            "5,000",
+            "6,000"
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "Verificador de Datos en Motocicleta",
+            "Home verification, delivery of cards, valid motorcycle license, completed high school, minimum experience of 6 months, management of applications from the cell phone to upload data to the platform and location in real time.\nBenefits of Law, from Monday to Saturday, Age from 23 to 40 years.",
+            "01\/06\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/verificador-de-datos-en-motocicleta-ma-elena-zepeda-1115202839.html",
+            null,
+            "Ma Elena Zepeda",
+            "Guadalajara, Jalisco, Mexico",
+            "6,000",
+            "7,000"
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "Ciencia de Datos Machine Learning",
+            "The job is for a new artificial intelligence company called AIVITA, but they will be hiring from BLUE ENERGY AND ELECTRICITY Knowledge profile Management of descriptive and inferential statistics for information analysis. Management of modular programming and Object Oriented. Management of Big Data databases (Msql, Sql): A) Database creation B) Database queries Management of information extraction techniques. a) Management of apis b) Web scraping Management knowledge in machine learning techniques for the creation of predictive models of classification and regression. a) Grouping techniques b) Pattern recognition c) Forecast generation Knowledge management in linear programming to optimize portfolios. Management of Python programming language (pandas, numpy, sklearn, tensorflow, keras) Management of Excel Plus R, C, C #, Java and Javascript Plus Web Development Plus Management of Tableau, Power BI",
+            "01\/06\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/ciencia-de-datos-machine-learning-carlos-manuel-luna-malavaez-1115196068.html",
+            null,
+            "Carlos Manuel Luna Malavaez",
+            "Ciudad de México, Distrito Federal, Mexico",
+            "15,000",
+            "25,000"
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "INSTALADOR DE INSTALACIONES ESPECIALES CCTV, CONTROL DE ACCESO, VOZ Y DATOS",
+            "KNOWLEDGE:\n· Installation of CCTV, access, voice and data, smoke detection and\/or automation.\n· In electrical components (wire gauges, electrical wiring).\n· Handling and use of mechanical-electrical tools.\nRESPONSIBILITIES:\nCarry out wiring activities, installation of equipment and programming of the different special systems.\n* Wiring installation.\n*Equipment assembly\n*Wire identification\n*Connection of equipment in conjunction with the specialist.\nGenerate reports of the different assigned maintenance services.\nSolve problems in maintenance service of special systems.\n\nType of position: Full time, For an indefinite period, For work or fixed time, For trial period\nContract duration: 3 months\nSalary: $8, - $8, per month\nBenefits:\nDiscounts and preferential prices\nOption to indefinite contract\nfree uniforms\novertime pay\nExpenses Pay\nSchedule:\n8 hour shift\nMonday to Friday from 9:00 a.m. to 6:00 p.m.\nSaturdays from 9:00 a.m. to 1:00 p.m.\nConsiderations before COVID-19:\nAlways carry mouths cover. The company provides safety gear, tools, and COVID safety gear.\nEducation:\nBachelor's degree completed (desirable)\nExpected start date:",
+            "01\/06\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/instalador-de-instalaciones-especiales-cctv-control-de-acceso-voz-y-datos-gabriela|-flores-1115194216.html",
+            null,
+            "GABRIELA| FLORES",
+            "Cuauhtémoc, Distrito Federal, Mexico",
+            "8,000",
+            "8,500"
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "Consultor Datos Maestros",
+            "We are looking for the next consultant focused on data analysis and data integration for BI projects. The modality is 100% remote\nMinimum 3 years of experience in master data management and data quality.\nManage, centralize, organize, classify, locate, synchronize and enrich master data according to business rules.\nKnowledge in Data Quality and Data Integration projects.\nKnowledge of tools such as IT, EBX, Trillium, Collibra\nKnowledge of RDBMS such as: Oracle, MS SQL Server, Teradata and MySQL\nExperience in implementing ETL solutions (DataStage, Data Service)\nExperience with metadata management tools such as MITI\nWe offer:\nScheme 100 payroll\nInsurance of major medical expenses\n100% remote anywhere in the Mexican Republic\nadditional holidays\npantry vouchers",
+            "01\/06\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/consultor-datos-maestros-plus-one-1115186455.html",
+            null,
+            "Plus One",
+            "Ciudad de México, Distrito Federal, Mexico",
+            "68,000",
+            "75,000"
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "Analista de datos Analíticos - Químico",
+            "Requirements:\n25 to 35 years of age.\n1 year of experience (technical knowledge).\nKnowledge:\nManagement of laboratory equipment: balance, oven, uv-vis spectrophotometer, potentiometer, incubators, atomic absorption spectrophotometer, etc.\nActivities:\nMonitor the records that give traceability to the reported results.\nSupervision of maintenance records and verification of equipment and instruments.\nSupervise equipment control chart records.\nSupervise the volumetric material verification records.\nSupervise the opening of new blogs.\nSupport in the attention of internal and\/or external audits.\nSkills needed:\nTeamwork.\nI work under pressure.\nWork for objectives.\nWe offer:\nHours Monday through Friday from 9 a.m. to 7 p.m. and Saturdays from 9 a.m. to 2 p.m.\nSalary of $7, net.\nContinuous training.\nLaw benefits.",
+            "09\/05\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/analista-de-datos-analiticos-quimico-1115114743.html",
+            null,
+            "Confidencial",
+            "Tlalpan, Distrito Federal, Mexico",
+            null,
+            null
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "ANALISTA DE DATOS",
+            "Requirements\nMinimum age of 25 years old\nverifiable studies\nMinimum 1 year verifiable experience\nCOVID-19 vaccination certificate\nVerifiable work references\nTime availability\nBasic office skills\nResidence in Pachuca, Mineral de la Reforma and surroundings\nActivities\nExtract, process and group data\nAnalyze those data pools\nGenerate reports\nWe offer\nSalary $6, monthly\nBenefits superior to those of the law\nUniform\nSavings bank\nWeekly prompt payments\nExcellent work environment",
+            "09\/05\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/analista-de-datos-transportes-cano-1115081107.html",
+            null,
+            "TRANSPORTES CANO",
+            "Mineral de la Reforma, Hidalgo, Mexico",
+            null,
+            null
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "ANALISTA DE DATOS (ERP)",
+            "Sanfer is one of the leading companies in the Mexican pharmaceutical market, it was founded more than 75 years ago and has always been concerned with strengthening the health of the population, it has innovative pharmaceutical products with therapeutic characteristics that offer an alternative of effective treatment to our prescribers and consumers.\n\nParticipates in more than 10 therapeutic areas including: Infectology, Algology, Cardiology, Gastroenterology, Central Nervous System, Metabolic Syndrome, Gynecology, Urology, Oncology, Over-the-Counter Products and Animal Health Products for all types of species\nACTIVITIES:\nDevelop databases to keep information updated and provide quick responses to queries.\nSAP domain.\nKeep databases updated to have reliable and timely information.\nSupport in the implementation of improvement strategies for the warehouse, planning and packaging engineering areas to improve the flow of information between each area.\nImplement annual training programs for the warehouse, planning and packaging engineering areas in order to reinforce knowledge in the ERP-LX system.\nConstant coordination with the warehouse, planning and packaging engineering areas to implement Savings projects.\nAnalysis and interpretation of information for the creation of dashboards for BI.\nRequirements:\nREQUIREMENTS:\nSCHOOLING: ING. IN SYSTEMS, ENG. INDUSTRIAL, OR SIMILAR.\nEXPERIENCE: 2 years in a similar position.\nKNOWLEDGE: Comprehensive manufacturing systems.\nPlace of work: LERMA.\nBenefits:\nWE OFFER:\nBenefits superior to those of the law.\nPantry vouchers.\nInsurance of major medical expenses.\nDinning room.\nDirect hiring by the company.",
+            "09\/05\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/analista-de-datos-erp-laboratorios-sanfer-1115052889.html",
+            null,
+            "Laboratorios Sanfer",
+            "Lerma de Villada, Estado de México, Mexico",
+            null,
+            null
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "Capturista de datos y atención al cliente",
+            "We offer:\nEmployment stability.\nFull time hours from Monday to Friday from 09:00 to 18:00 and Saturdays from 09:00 to 14:00.\n$5,000 net salary and $2,000 productivity bonus.\nTasks to do\nData capture in CRM and excel\nData validation\nCustomer follow-up\nCustomer support via chat and calls\n\nRequirements:\nLive in the \"Héroes de Padierna\" neighborhood, near \"Six Flags\".\nManagement of computer, databases and drive.\nHave experience in customer service, data capture and \/ or Call Center.\nBasic Excel to perform filters and commands.\n\nSkills:\nI like customer service.\nOrganized and committed.\nResponsible and ease of speech.\n\nPlease apply by this means or contact 5628199361",
+            "09\/05\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/capturista-de-datos-y-atencion-al-cliente-berenice-valderas-1115037700.html",
+            null,
+            "Berenice Valderas",
+            "Tlalpan, Distrito Federal, Mexico",
+            null,
+            null
+        ],
+        [
+            [
+                "analista de datos",
+                "datos"
+            ],
+            "Capturista\/analista de datos HOMBRE",
+            "Functions:\nCarry out procedures online\nData Capture\nAnalysis of the information\nGenerating reports\nProfessional profile:\nHonest\nExcellent Management of Office and Internet Packages\nActive person, easy to speak.\nFriendly, efficient and helpful attitude.\nAbility to establish and maintain good interpersonal relationships.\nExcellent presentation.\nRequirements:\nLive in Golden Valley, Tlalnepantla de Baz\nMinimum education: completed high school\n2 years of experience.\nAge between 20 and 30 years\nAvailability to work from Monday to Friday from 9:00 a.m. to 6:00 p.m.\nMonthly Base Salary 5000 + bonus (1000)\nLegal benefits (IMSS, vacations, Christmas bonus)\nEmployment stability",
+            "09\/05\/2022",
+            "On-site",
+            "23\/06\/2022, 12:54",
+            "https:\/\/www.bumeran.com.mx\/empleos\/capturista-analista-de-datos-hombre-erika-gonzalez-1115028543.html",
+            null,
+            "Erika Gonzalez",
+            "Tlalnepantla de Baz, Estado de México, Mexico",
+            null,
+            null
+        ]
+    ]
+}

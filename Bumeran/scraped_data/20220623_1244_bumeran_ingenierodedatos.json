@@ -1,0 +1,56 @@
+{
+    "columns":[
+        "keyWords",
+        "title_role",
+        "description",
+        "date_published",
+        "schema",
+        "consulted_datetime",
+        "source",
+        "company_rate",
+        "company",
+        "city",
+        "min_monthly_salary",
+        "max_monthly_salary"
+    ],
+    "index":[
+        0,
+        1
+    ],
+    "data":[
+        [
+            [
+                "ingeniero de datos",
+                "data engineer"
+            ],
+            "Analytics Data Engineer",
+            "We are a 100% Mexican company with more than 25 years of experience in connecting talent with companies.\n\n\nAnalytics Data Engineer in Monterrey, Guadalajara and AguasCalientes\nThe ideal candidate is a motivated individual who is excited about making an impact to a user base of over 20k that is ready to operate in a fast-paced environment and can clearly demonstrate a thirst for learning and mastering emerging technologies, processes and tools in the analyticsspace. This person should take initiative and shouldn't be an order taker. They should enjoy optimizing data models to industry standards.\n\n\nKey Requirements:\n\n1. Enterprise level SSAS \/ Tabular DAX Modeling experience\n2. Experience with SQL Querying\n3. Experienced with agile processes and methodologies\n4. Experience with Production Models & troubleshooting skills\n5. Ability to demonstrate understanding of business requirements & business concepts\n\nFollowing skills are not required but are a plus :\n\n6. Experience working with a team using Git\n7. Spark\/Databricks Experience\n8. Experience with Build\/Release Pipelines in Azure DevOps\n\nAdvanced English\n\nFor now the position is remote but based on client's requirement, after Pandemic resource might required to be onsite to either one of these 3 locations. Guadalajara, Monterrey and .\n\nOur Ideal Candidate:\n-Advanced English\n\nLocation: Cuajimalpa de Morelos, Federal District\nDisability: This vacancy is suitable for people with disabilities.\n\n\nThe selection process is carried out through AIRA - a recruitment platform designed to improve your application experience.\n\nTo apply you just need:\n1. Apply for the offer\n2. Check your mail\n3. Enter AIRA and answer the questions and\/or tests requested\n\nThen, if we see that your profile fits what we are looking for, we will contact you by mail (through AIRA) to continue to the face-to-face stage.\nREF:15-8711-1648165198",
+            "09\/05\/2022",
+            "On-site",
+            "23\/06\/2022, 12:44",
+            "https:\/\/www.bumeran.com.mx\/empleos\/analytics-data-engineer-human-quality-1115072534.html",
+            null,
+            "Human Quality",
+            "Cuajimalpa de Morelos, Distrito Federal, Mexico",
+            null,
+            null
+        ],
+        [
+            [
+                "ingeniero de datos",
+                "data engineer"
+            ],
+            "Data Engineer with Azure and Analytics",
+            "We are a 100% Mexican company with more than 25 years of experience in connecting talent with companies.\n\n\nData Engineer With Azure and Analytics in Monterrey, Guadalajara and AguasCalientes.\nStrong SQL, SQL Server, Azure, SSIS, SSAS, Azure data lake analytics,\nProblem Solving\nAzure Database, Data Lake and Data Factory\ncube development\nAdvanced English\nFor now the position is remote but based on client’s requirement, after Pandemic resource might required to be onsite to either one of these 3 locations : Monterrey, Guadalajara and AguasCalientes\n\nOur Ideal Candidate:\n-Advanced English or Bilingual\n\nLocation: Cuajimalpa de Morelos, Federal District\nDisability: This vacancy is suitable for people with disabilities.\n\n\nThe selection process is carried out through AIRA - a recruitment platform designed to improve your application experience.\n\nTo apply you just need:\n1. Apply for the offer\n2. Check your mail\n3. Enter AIRA and answer the questions and\/or tests requested\n\nThen, if we see that your profile fits what we are looking for, we will contact you by mail (through AIRA) to continue to the face-to-face stage.\nREF:03-8605-1648162503",
+            "09\/05\/2022",
+            "On-site",
+            "23\/06\/2022, 12:44",
+            "https:\/\/www.bumeran.com.mx\/empleos\/data-engineer-with-azure-and-analytics-human-quality-1115072481.html",
+            null,
+            "Human Quality",
+            "Cuajimalpa de Morelos, Distrito Federal, Mexico",
+            null,
+            null
+        ]
+    ]
+}
