@@ -1,0 +1,21 @@
+[
+    [{"LOWER": "senior"}],
+    [{"LOWER": "sr"}],
+    [{"LOWER": "lead"}],
+    [{"LOWER": "leads"}],
+    [{"LOWER": "supervisor"}],
+    [{"LOWER": "manager"}],
+    [{"LOWER": "managers"}],
+    [{"LOWER": "mid"}],
+    [{"LOWER": "mid-level"}],
+    [{"LOWER": "mid"}],
+    [{"LOWER": "intern"}],
+    [{"LOWER": "jr"}],
+    [{"LOWER": "juniors"}],
+    [{"LOWER": "intermediates"}],
+    [{"LOWER": "director"}],
+    [{"LOWER": "specialist"}],
+    [{"LOWER": "head"}],
+    [{"LOWER": "principal"}]
+    
+]

@@ -1,0 +1,23 @@
+ [
+    [{"LOWER": "software"},{"LOWER": "engineer"}],
+    [{"LOWER": "developer"}],
+    [{"LOWER": "developers"}],
+    [{"LOWER": "engineer"}],
+    [{"LOWER": "engineers"}],
+    [{"LOWER": "tester"}],
+    [{"LOWER": "testers"}],
+    [{"LOWER": "analyst"}],
+    [{"LOWER": "project"}, {"LOWER":"manager"}],
+    [{"LOWER": "project"}, {"LOWER":"managers"}],
+    [{"LOWER": "product"}, {"LOWER":"owner"}],
+    [{"LOWER": "consultant"}],
+    [{"LOWER": "architect"}],
+    [{"LOWER": "steward"}],
+    [{"LOWER": "application"}, {"LOWER":"support"}],
+    [{"LOWER": "support"}],
+    [{"LOWER": "admin"}],
+    [{"LOWER": "administrator"}],
+    [{"LOWER": "dba"}]
+
+
+]

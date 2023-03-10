@@ -1,0 +1,7 @@
+ [
+    [{"LOWER": "ntt"},{"LOWER": "data"}],
+    [{"LOWER": "telus"},{"LOWER": "international"}],
+    [{"LOWER": "accenture"}],
+    [{"LOWER": "epam"}]
+
+]

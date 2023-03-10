@@ -1,0 +1,7 @@
+[
+        [{"LOWER": "full"}, {"IS_PUNCT": true,"OP":"*"}, {"LOWER": "time"}],
+        [{"LOWER": "part"}, {"IS_PUNCT": true,"OP":"*"}, {"LOWER": "time"}],
+        [{"LOWER": "contract"}],
+        [{"LOWER": "temporary"}],
+        [{"LOWER": "internship"}]
+]
